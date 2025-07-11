@@ -1,0 +1,55 @@
+d# === Maven ===
+ /target/
+ *.jar
+ *.log
+
+ # === IntelliJ IDEA ===
+ .idea/
+ *.iml
+
+ # === VSCode ===
+ .vscode/
+
+ # === Eclipse ===
+ .classpath
+ .project
+ .settings/
+
+ # === NetBeans ===
+ nbproject/private/
+ nbbuild/
+ dist/
+ build/
+
+ # === OS Junk ===
+ .DS_Store
+ Thumbs.db
+
+ # === Generated & Backup Files ===
+ *.class
+ *.swp
+ *.bak
+ *~
+ hs_err_pid*
+
+ # === Key Files (sensitive) ===
+ *.asc
+ *.gpg
+ *.key
+ *.pgp
+
+ # === App Specific Files ===
+ output.pgp
+ decrypted.*.Rhistory
+
+# IDE
+.idea/
+
+# Maven build
+/target/
+
+# macOS
+.DS_Store
+
+# Shade plugin
+/dependency-reduced-pom.xml
